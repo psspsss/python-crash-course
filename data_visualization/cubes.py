@@ -14,4 +14,5 @@ plt.scatter(x_values, y_values, c=y_values, cmap=plt.cm.Blues, edgecolors="none"
 plt.axis([0, 5100, 0, 125000000000])
 
 
+plt.savefig("cubes.png", bbox_inches="tight")
 plt.show()
