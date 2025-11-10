@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-
+import pygal
 from random_walk import RandomWalk
 
 while True:
