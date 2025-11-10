@@ -3,7 +3,7 @@ from die import Die
 
 
 die1 = Die()
-die2 = Die(10)
+die2 = Die()
 
 results = []
 
@@ -23,7 +23,7 @@ for value in range(2, max_result + 1):
 hist = pygal.Bar()
 
 hist.title = "Results of rolling Two D6 dice 1000 times."
-hist.x_labels = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+hist.x_labels = [num for num in range(2, max_result + 1)]
 hist.x_title = "Result"
 hist.x_title = "Frequency of Result"
 

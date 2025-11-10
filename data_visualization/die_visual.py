@@ -21,7 +21,7 @@ for value in range(1, die.num_sides + 1):
 hist = pygal.Bar()
 
 hist.title = "Results of rolling one D6 dice 1000 times."
-hist.x_labels = ["1", "2", "3", "4", "5", "6"]
+hist.x_labels = [num for num in range(1, die.num_sides + 1)]
 hist.x_title = "Result"
 hist.x_title = "Frequency of Result"
 
