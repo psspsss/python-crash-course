@@ -1,4 +1,4 @@
-from matplotlib.pyplot import title
+from matplotlib.pyplot
 import pygal
 from pygal.style import DarkStyle
 from random_walk import RandomWalk
